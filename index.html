@@ -1,1 +1,97 @@
+<<<<<<< HEAD
 My Page
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>From Zero to Web Hero by tu6619</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>From Zero to Web Hero</h1>
+          <h2>A journal of reflections from the journey through JavaScript.</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/tu6619/From_Zero_to_web_Hero/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/tu6619/From_Zero_to_web_Hero/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/tu6619/From_Zero_to_web_Hero" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h4>
+<a id="my-guide-to-debugging-javascript" class="anchor" href="#my-guide-to-debugging-javascript" aria-hidden="true"><span class="octicon octicon-link"></span></a>MY GUIDE TO DEBUGGING JAVASCRIPT</h4>
+
+<p>You think you've created the perfect code - rich in its content, majestic in its simplicity - and then BAM!</p>
+
+<p><code>Error: TypeError: undefined</code>                <img src="https://vineethkartha.files.wordpress.com/2012/05/bug1.jpg" alt=""></p>
+
+<p>But how is this possible??! You spent hours on that thing and not only that, you double, triple <em>and</em> quadruple checked it. Sound familiar? Whether your JS journey started recently at zero or not, you may well empathise. During my short time in the coding game, bugs were, initially, purely a source of frustration and cursing the language for all its unhelpfulness. Since those early stages, the relationship between bugs and I has blossomed into a strange kind of love, for nowhere has the learning curve been more enlightening as in the process of <strong>debugging</strong>.</p>
+
+<p>As is often the case, <em>Eloquent Java Script</em> hits the nail on the head and <a href="http://eloquentjavascript.net/08_error.html">Chapter 8</a> is no exception. The first step to making friends with a bug: </p>
+
+<blockquote>
+<p>Try to resist making random changes to the code. </p>
+</blockquote>
+
+<p>I found casting wildly with random code tweaks only furthered my incomprehension. </p>
+
+<p>Here's how I approach the situation:</p>
+
+<ol>
+<li><p>Switch on the <em>strict mode</em> by typing <code>"strict mode"</code> into the top of a function body or file (see <a href="http://eloquentjavascript.net/08_error.html">EJS</a> for detailed example). This will flush out any reading of accidentally created global objects and variables.</p></li>
+<li><p>Use <code>alert();</code> to figure out <em>where</em> the bug is. Alerts only work with strings but are useful in narrowing down the problem area. Quite simply, an inserted alert which isn't displayed by the browser indicates a bug in the preceding code and vice versa. Watch out <em>for</em> using these in <em>for</em> loops, you may find your browser crashing!</p></li>
+<li><p>Use <code>console.log();</code> to examine certain values at different stages of the code. This can provide important clues as to the bug's whereabouts.</p></li>
+</ol>
+
+<p>You can practice your debugging skills on these Codewars kata:</p>
+
+<ul>
+<li><a href="http://www.codewars.com/kata/unexpected-parsing">Unexpected parsing</a></li>
+<li><a href="http://www.codewars.com/kata/grasshopper-debug">Grasshopper - Debug</a></li>
+<li><a href="http://www.codewars.com/kata/regex-failure-bug-fixing-number-2">Regex Failure - Bug Fixing #2</a></li>
+<li><a href="http://www.codewars.com/kata/honey-to-the-bee">Honey to the Bee</a></li>
+<li><a href="http://www.codewars.com/kata/this-is-an-other-problem">"this" is an other problem</a></li>
+<li><a href="http://www.codewars.com/kata/breaking-search-bad">Breaking search bad</a></li>
+</ul>
+
+<h3>
+<a id="no-need-to-keep-clicking-it-oldskool" class="anchor" href="#no-need-to-keep-clicking-it-oldskool" aria-hidden="true"><span class="octicon octicon-link"></span></a>No need to keep clicking it oldskool...</h3>
+
+<p>In the real world of web development, times have supposedly moved on for the better and now most browsers support their own tools for debugging. Arguably the most useful is the "Console" option since it shows, not only the error itself, but also the error's exact position! Instructions on how to access this feature are listed by browser <a href="http://www.w3schools.com/js/js_debugging.asp">here</a>. If you're using Chrome, just right click the page, inspect the element and find the "Console" tab on the far right of the menu after "Audits". </p>
+
+<h3>
+<a id="further-resources" class="anchor" href="#further-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Further resources...</h3>
+
+<ul>
+<li>For an interactive tour of Chrome's debugging features, <a href="http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners/">this</a> is definitely a winner. </li>
+<li>There's also <a href="https://www.youtube.com/watch?v=rcjUR4icvoQ">a really interesting half hour tutorial</a> on lesser known debugging techniques in JS.</li>
+</ul>
+        </section>
+
+        <footer>
+          From Zero to Web Hero is maintained by <a href="https://github.com/tu6619">tu6619</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
+>>>>>>> origin/gh-pages
