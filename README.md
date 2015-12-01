@@ -1,2 +1,2 @@
-# From-Zero-to-web-Hero
-Reflections on the greatest challenge of my life to date: becoming a full stack web developer.
+# From_Zero_to_web_Hero
+A journal of reflections from the journey through JavaScript.
