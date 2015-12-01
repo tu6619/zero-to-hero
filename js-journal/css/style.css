@@ -1,0 +1,101 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding-bottom: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 14px;
+  text-transform: uppercase;
+  background-color: #DEDCDC;
+}
+.jumbotron {
+  background-image: url('http://wallpaperswa.com/thumbnails/detail/20120722/dark%20grey%20bleak%20minimal%202560x1600%20wallpaper_wallpaperswa.com_97.jpg');
+  height: 500px;
+}
+.jumbotron h1 {
+  color: #fff;
+  font-size: 213px;
+  font-weight: bold;   
+  font-family: 'Shift', sans-serif;
+  position: relative;
+  bottom: 50px;
+  right: 50px;
+}
+.jumbotron p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;     
+}
+.jumbotron h3 {
+  color: #fff;
+  font-size: 44px;
+  font-weight: bold;    
+  font-family: 'Shift', sans-serif;
+  position: relative;
+  top: 200px;
+}
+.learn-more {
+    background-color: #DEDCDC;
+}
+.learn-more h4 {
+  bottom: 100px;
+  color: #fff;
+  font-size: 33px;
+  font-weight: bold;    
+  font-family: 'Shift', sans-serif;
+}
+.learn-more a {
+    color: #fff;
+}
+.nav li {
+  display: inline-table;
+  position: relative;
+  left: 360px;
+}
+.jumbotron .container {
+  position: relative;
+  top: 50px;
+}
+.learn-more img {
+    position: relative;
+    top: 10px;
+    bottom: 100px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #73AD21;
+    -webkit-filter: grayscale(1);
+}
+
+
+.post {
+  background color: #B8B8BC;
+}
+  
+.contacts img:hover {
+  opacity: 1;
+}
+
+.contacts img {
+  width: 36px;
+  opacity: 0.7;
+  padding-bottom: 5px;
+}
+
+.contacts li{
+  display: table-footer-group;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.contacts br{
+  size: 20px;
+}
+
+.contacts ul{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  -webkit-filter: grayscale(1);
+  padding: 0px 10px 0px 0px;
+}
